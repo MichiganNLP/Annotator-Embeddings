@@ -1,7 +1,7 @@
 # Annotator-Embeddings
 
 Cleaned repo for our paper 
-**You Are What You Annotate: Towards Better Models through Annotator Representations** at ***Findings of EMNLP 2023***.
+[**You Are What You Annotate: Towards Better Models through Annotator Representations**](https://arxiv.org/abs/2305.14663) at ***Findings of EMNLP 2023***.
 
 ---
 
