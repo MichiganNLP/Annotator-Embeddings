@@ -1,0 +1,48 @@
+name: ann-embed
+variables:
+  PYTHONPATH: .
+dependencies:
+  - pip:
+      - scenedetect
+  - conda-forge::cached_path
+  - conda-forge::cudatoolkit
+  - conda-forge::filterpy
+  - conda-forge::google-api-python-client
+  - conda-forge::google-auth-oauthlib
+  - h5py
+  - ipython
+  - keras=2.6 # Not sure why it's needed, but it gives an import error otherwise.
+  - conda-forge::matplotlib
+  - conda-forge::moviepy
+  - nltk
+  - numpy
+  - opencv
+  - conda-forge::overrides
+  - pandas
+  - pip
+  - pillow
+  - conda-forge::py-rouge=1.1
+  - python=3.9
+  - pytorch::pytorch=*=*cuda*
+  - conda-forge::pytorch-lightning=1.6
+  - conda-forge::pytube
+  - requests
+  - conda-forge::rich # For fancy output.
+  - selenium
+  - conda-forge::sentence-transformers
+  - scikit-image
+  - scikit-learn
+  - scikit-learn-intelex
+  - scipy
+  - tabulate
+  - tensorboard
+  - conda-forge::torchmetrics=0.8
+  - pytorch::torchvision
+  - tqdm
+  - conda-forge::transformers=4.15
+  - conda-forge::wandb
+  - flask
+  - flask_cors
+  - openai
+  - gunicorn
+  - sqlite
